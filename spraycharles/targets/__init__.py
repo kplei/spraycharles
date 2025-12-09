@@ -10,7 +10,7 @@ from spraycharles.targets.Owa import OWA
 from spraycharles.targets.Rdg import RDG
 from spraycharles.targets.Smb import SMB
 from spraycharles.targets.Sonicwall import Sonicwall
-
+from spraycharles.targets.GlobalProtect import GlobalProtect
 
 #
 # define all target modules
@@ -25,7 +25,8 @@ all = [
     OWA,
     RDG,
     SMB,
-    Sonicwall
+    Sonicwall,
+    GlobalProtect
 ]
 
 
@@ -43,5 +44,6 @@ class Target(str, Enum):
     rdg         = RDG.NAME
     smb         = SMB.NAME
     sonicwall   = Sonicwall.NAME
+    globalprotect = GlobalProtect.NAME
 
 
