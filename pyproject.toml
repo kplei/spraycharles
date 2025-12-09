@@ -8,8 +8,8 @@ authors = [
 ]
 readme = "README.md"
 license = "BSD 3-Clause"
-homepage = "https://github.com/Tw1sm/spraycharles"
-repository = "https://github.com/Tw1sm/spraycharles"
+homepage = "https://github.com/kplei/spraycharles"
+repository = "https://github.com/kplei/spraycharles"
 include = ["LICENSE", "CHANGELOG.md"]
 
 [tool.poetry.dependencies]
